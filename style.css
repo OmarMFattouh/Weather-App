@@ -1,5 +1,6 @@
 @import "./animation-star-background";
-.for-star{
+
+.for-star {
     background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
     animation: stars 180s linear infinite;
     /* position: absolute; */
@@ -15,6 +16,7 @@
         background-position: 798px -798px;
     }
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -229,5 +231,11 @@ body {
 @media screen and (max-width: 450px) {
     .wrapper {
         font-size: 14px;
+        width: 45vw;
+        max-width: 18em;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
     }
 }
