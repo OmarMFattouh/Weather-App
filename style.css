@@ -239,3 +239,63 @@ body {
         left: 50%;
     }
 }
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+        /* Adjust width to 90% of the viewport */
+        max-width: none;
+        /* Remove max-width constraint */
+        font-size: 14px;
+        /* Adjust font size for better readability */
+        padding: 2em;
+        /* Increase padding for better spacing */
+    }
+
+    .shape-1 {
+        height: 10em;
+        /* Adjust height of shape 1 */
+        width: 10em;
+        /* Adjust width of shape 1 */
+        right: -6em;
+        /* Adjust position of shape 1 */
+        top: 1em;
+        /* Adjust position of shape 1 */
+    }
+
+    .shape-2 {
+        height: 8em;
+        /* Adjust height of shape 2 */
+        width: 8em;
+        /* Adjust width of shape 2 */
+        bottom: 0.5em;
+        /* Adjust position of shape 2 */
+        left: -3em;
+        /* Adjust position of shape 2 */
+    }
+
+    .search-container {
+        grid-template-columns: 7fr 3fr;
+        /* Adjust grid columns for input and button */
+        gap: 1em;
+        /* Adjust gap between grid items */
+    }
+
+    #earth {
+        width: 200px;
+        /* Adjust size of Earth image */
+        height: 200px;
+        /* Adjust size of Earth image */
+        background-size: 400px;
+        /* Adjust background size */
+    }
+
+    #result h1 {
+        font-size: 3em;
+        /* Adjust font size of temperature */
+    }
+
+    .temp-container div {
+        padding: 0.3em 0.8em;
+        /* Adjust padding of temperature containers */
+    }
+}
