@@ -27,11 +27,11 @@ let getWeather = () => {
         <h1>${data.main.temp} &#176;</h1>
         <div class="temp-container">
         <div>
-        <h4 class="title>min</h4>
+        <h4 class="title">min</h4>
         <h4 class="temp">${data.main.temp_min}&#176;</h4>
         </div>
         <div>
-        <h4 class="title>max/h4>
+        <h4 class="title">max</h4>
         <h4 class="temp">${data.main.temp_max}&#176;</h4>
         </div>
         </div>
